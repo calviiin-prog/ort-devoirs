@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page HTML Calvin REMY</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid global">
+            <!-- Banner -->
+            <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-dark">
+                    <h5 class="my-0 mr-md-auto text-white">Présentation</h5>
+                    <nav class="my-2 my-md-0 mr-md-3 ">
+                        <a class="p-2 text-light" href="#services">Services</a>
+                        <a class="p-2 text-light" href="#equipe">Equipe</a>
+                        <a class="p-2 text-light" href="#portfolio">Notre histoire</a>
+                        <a class="p-2 text-light" href="#contact">Contactez-nous</a>
+                    </nav>
+            </div>
+            <div class="container">
+                <!--Carousel -->
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="4000">
+                            <img src="images/slide1.jpg" class="d-block w-100" alt="ichi">
+                        </div>
+                        <div class="carousel-item" data-interval="4000">
+                            <img src="images/slide2.jpg" class="d-block w-100" alt="ni">
+                        </div>
+                        <div class="carousel-item" data-interval="4000">
+                            <img src="images/slide3.jpg" class="d-block w-100" alt="san">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                <!-- Partie Services -->
+                <div id="services" class="row jumbotron margin-bottom margin-top">
+                    <div class="col-md-4">
+                        <img  src="images/service.png" alt="" width="200">
+                        <p><strong>Service 1 : </strong></p>
+                        <p>Administration de serveurs</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/service.png" alt="" width="200">
+                        <p><strong>Service 2 : </strong></p>
+                        <p>Service Cloud</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/service.png" alt="" width="200">
+                        <p><strong>Service 3 : </strong></p>
+                        <p>Audit Informatique</p>
+                    </div>
+                </div>
+                <!-- Partie Equipe -->
+                <div id="equipe" class="row margin-top margin-bottom">
+                    <div class="col-md-4">
+                        <div class="row text-center ">
+                            <img src="images/team.png" alt="" width="150">
+                        </div>
+                        <div class="row ">
+                            <p>Des équipes réseau ayant plus de 10 ans de savoir-faire</p>
+                        </div>
+                        <div class="row">
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="row">
+                            <img src="images/team.png" alt="" width="150">
+                        </div>
+                        <div class="row text-center ">
+                            <p>Des experts cloud acteurs dans l'avancé du secteur du chiffrement</p>
+                        </div>
+                        <div class="row">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <img src="images/team.png" alt="" width="150">
+                        </div>
+                        <div class="row text-center ">
+                            <p>Des auditeurs spécialisé dans la cybersécurité</p>
+                        </div>
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+                <!-- Partie Notre histoire -->
+                <div id="portfolio" class="row jumbotron margin-top margin-bottom">
+                    <div class="col-md-6 margin-top margin-bottom">
+                        <p><strong>Notre histoire: </strong></p>
+                        <p>Chaque jour, nos 110 000 collaborateurs dans 73 pays développent et mettent en œuvre des solutions numériques innovantes qui soutiennent la transformation des activités de nos clients et relèvent les défis environnementaux et sociaux auxquels nous sommes tous confrontés.</p>
+                    </div>
+                    <div class="col-md-6 portfolio">
+                        <img src="images/background.png" alt="" width="100%">
+                    </div>
+                </div>
+                <!-- Partie carte et contactez-nous -->
+                <div id="contact" class="row margin-top margin-bottom">
+                    <div class="col-md-6 margin-bottom">
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.5909442901611329%2C44.82979127583475%2C-0.5507755279541017%2C44.85106193525776&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=15/44.8404/-0.5709">Afficher une carte plus grande</a></small>
+                    </div>
+                    <div class="col-md-6 margin-bottom">
+                            <p><strong>Contactez-nous : </strong></p>
+                            <textarea name="name" id="" cols="30" rows="1" placeholder="Nom :"></textarea>
+                            <textarea name="text" id="" cols="30" rows="5" placeholder="Entrer texte :"></textarea>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary">Valider</button>
+                            </div>
+                    </div>
+                </div>
+                <!-- Partie footer -->
+                <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                    <div class="row">
+                      <div class="col-12 col-md">
+                        <small class="d-block mb-3 text-muted">ↄ 2019-2020</small>
+                      </div>
+                      <div class="col-6 col-md">
+                        <h5>Sites à travers le monde :</h5>
+                        <ul class="list-unstyled text-small">
+                          <li>Bordeaux</li>
+                          <li>Paris</li>
+                          <li>Séoul</li>
+                          <li>Atlanta</li>
+                        </ul>
+                      </div>
+                      <div class="col-6 col-md">
+                        <h5>Nos partenaires :</h5>
+                        <ul class="list-unstyled text-small">
+                          <li>Atos</li>
+                          <li>Stormshield</li>
+                          <li>IBM</li>
+                        </ul>
+                      </div>
+                    </div>
+                </footer>
+            </div>
+        </div> 
+    </body>
+</html>
